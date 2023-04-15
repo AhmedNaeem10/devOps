@@ -1,4 +1,7 @@
-- masterpool:
+trigger:
+- master
+
+pool:
   name: 'Default'
 
 # define variables to use during the build

@@ -9,6 +9,7 @@ function Header({ route }) {
                     <a href='/' style={{fontWeight: route === "home" ? "bold" : "normal", textDecoration: route === "home" ? "underline" : "none", fontSize: 20, margin: 15, color: "#cfe2f3" }}>Home</a>
                     <a href='/education' style={{fontWeight: route === "education" ? "bold" : "normal", textDecoration: route === "education" ? "underline" : "none", fontSize: 20, margin: 15, color: "#cfe2f3" }}>Education</a>
                     <a href='/projects' style={{fontWeight: route === "projects" ? "bold" : "normal", textDecoration: route === "projects" ? "underline" : "none", fontSize: 20, margin: 15, color: "#cfe2f3" }}>Projects</a>
+                    <a href='/certifications' style={{fontWeight: route === "certifications" ? "bold" : "normal", textDecoration: route === "certifications" ? "underline" : "none", fontSize: 20, margin: 15, color: "#cfe2f3" }}>Certifications</a>
                 </div>
             </div>
         </div>

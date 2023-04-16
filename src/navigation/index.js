@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home, Project, Education } from "../pages";
+import Certification from "../pages/Certification";
 
 export const router = createBrowserRouter([
     {
@@ -13,5 +14,9 @@ export const router = createBrowserRouter([
     {
         path: "/education",
         element: <Education />,
+    },
+    {
+        path: "/certifications",
+        element: <Certification />,
     },
 ]);
